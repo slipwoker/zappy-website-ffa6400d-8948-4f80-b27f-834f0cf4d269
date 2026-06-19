@@ -68,16 +68,16 @@
   src: url('assets/fonts/Rubik-Bold.woff2') format('woff2');
 }
 :root {
-  --primary: #00D4FF;
-  --secondary: #FF4FD8;
-  --accent: #FFC857;
-  --bg-light: #F5F7FA;
-  --bg-dark: #0F1115;
-  --text-dark: #0F1115;
-  --text-light: #F5F7FA;
-  --text-muted: #97A3B6;
-  --border-light: #D9E0EA;
-  --border-dark: #232833;
+--primary: #C8A96E;
+  --secondary: #1A1A2E;
+  --accent: #E2C044;
+  --bg-light: #0D0D0D;
+  --bg-dark: #0A0A0A;
+  --text-dark: #E8E8E8;
+  --text-light: #F5F0E8;
+  --text-muted: #A0A0B0;
+  --border-light: #777782;
+  --border-dark: #5d5d68;
   --nav-bg: transparent;
   --nav-text: #F5F7FA;
   --nav-text-hover: #00D4FF;
@@ -98,6 +98,13 @@
   --spacing-element-gap: 16px;
   --transition-default: all 0.3s ease;
   --transition-hover: all 0.3s ease;
+  --primary-color: #C8A96E;
+  --secondary-color: #1A1A2E;
+  --accent-color: #E2C044;
+  --background-color: #0D0D0D;
+  --surface-color: #141414;
+  --text-color: #E8E8E8;
+  --text-secondary-color: #A0A0B0;
 }
 
 *, *::before, *::after {
@@ -377,13 +384,13 @@ html:not([dir]) .whatsapp-float {
   --nav-bg: transparent;
   --nav-text: #F5F7FA;
   --nav-text-hover: #00D4FF;
-  --primary: #00D4FF;
-  --secondary: #FF4FD8;
-  --accent: #FFC857;
-  --bg-dark: #0F1115;
-  --text-dark: #0F1115;
-  --text-light: #F5F7FA;
-  --border-dark: #232833;
+  --primary: #C8A96E;
+  --secondary: #1A1A2E;
+  --accent: #E2C044;
+  --bg-dark: #0A0A0A;
+  --text-dark: #E8E8E8;
+  --text-light: #F5F0E8;
+  --border-dark: #5d5d68;
 }
 
 /* ===== Base Navbar ===== */
@@ -598,13 +605,13 @@ html:not([dir]) .whatsapp-float {
   --nav-bg: transparent;
   --nav-text: #F5F7FA;
   --nav-text-hover: #00D4FF;
-  --primary: #00D4FF;
-  --secondary: #FF4FD8;
-  --accent: #FFC857;
-  --bg-dark: #0F1115;
-  --text-dark: #0F1115;
-  --text-light: #F5F7FA;
-  --border-dark: #232833;
+  --primary: #C8A96E;
+  --secondary: #1A1A2E;
+  --accent: #E2C044;
+  --bg-dark: #0A0A0A;
+  --text-dark: #E8E8E8;
+  --text-light: #F5F0E8;
+  --border-dark: #5d5d68;
 }
 
 /* ===== Base Navbar ===== */
@@ -884,7 +891,7 @@ html:not([dir]) .whatsapp-float {
 .navbar a:focus-visible,
 .navbar button:focus-visible,
 .nav-menu a:focus-visible {
-  outline: 2px solid var(--primary-color, var(--primary, #00D4FF));
+  outline: 2px solid var(--primary-color, var(--primary, #C8A96E));
   outline-offset: 2px;
 }
 
@@ -1753,16 +1760,16 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
 /* Footer Styles */
 /* ===== CSS Variables ===== */
 :root {
-  --primary: #00D4FF;
-  --secondary: #FF4FD8;
-  --accent: #FFC857;
-  --bg-light: #F5F7FA;
-  --bg-dark: #0F1115;
-  --text-dark: #0F1115;
-  --text-light: #F5F7FA;
-  --text-muted: #97A3B6;
-  --border-light: #D9E0EA;
-  --border-dark: #232833;
+  --primary: #C8A96E;
+  --secondary: #1A1A2E;
+  --accent: #E2C044;
+  --bg-light: #0D0D0D;
+  --bg-dark: #0A0A0A;
+  --text-dark: #E8E8E8;
+  --text-light: #F5F0E8;
+  --text-muted: #A0A0B0;
+  --border-light: #777782;
+  --border-dark: #5d5d68;
   --radius-sm: 8px;
   --radius-md: 12px;
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
@@ -2073,7 +2080,7 @@ main:not(.courses-page-main) { margin-top: 0 !important; padding-top: 0 !importa
 
 
 /* V2 Decorative Helpers — quote marks */
-:root { --decorative-quote-color: var(--accent, #b48b59); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
+:root { --decorative-quote-color: var(--accent, #E2C044); --decorative-quote-font: var(--accent-font, var(--font-display, serif)); }
 blockquote::before, .quote::before, [data-quote]::before {
   content: "\201C";
   font-family: var(--decorative-quote-font);
@@ -2881,7 +2888,7 @@ main { flex: 1 0 auto; }
 }
 
 .index-benefits-section .kpi-card-main .kpi-value {
-  background: linear-gradient(135deg, #FFFFFF 0%, #FF4FD8 100%);
+  background: linear-gradient(135deg, #FFFFFF 0%, #1A1A2E 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -3003,16 +3010,12 @@ main { flex: 1 0 auto; }
 }
 
 
-/* process */
 .index-process-section {
   position: relative;
   overflow: visible;
-  background-color: var(--bg-light);
-  background-image:
-    radial-gradient(circle at 15% 20%, rgba(0,212,255,0.04) 0%, transparent 50%),
-    radial-gradient(circle at 85% 80%, rgba(255,79,216,0.03) 0%, transparent 50%),
-    linear-gradient(180deg, #F5F7FA 0%, #E9EEF5 100%);
-  color: var(--text-dark);
+  background-color: #0A0A0A;
+  background-image: radial-gradient(circle at 15% 20%, rgba(200,169,110,0.08) 0%, transparent 50%), radial-gradient(circle at 85% 80%, rgba(26,26,46,0.15) 0%, transparent 50%), linear-gradient(180deg, #0A0A0A 0%, #0D0D0D 100%);
+  color: var(--text-light);
   padding: 100px 16px 80px;
   direction: rtl;
   text-align: right;
@@ -3036,7 +3039,7 @@ main { flex: 1 0 auto; }
   font-weight: 700;
   letter-spacing: -0.01em;
   line-height: 1.2;
-  color: var(--text-dark);
+  color: var(--text-light);
   margin: 0 0 16px;
 }
 .index-process-section .index-process-section__header p {
@@ -3071,7 +3074,6 @@ main { flex: 1 0 auto; }
   display: block;
 }
 
-/* Step Card */
 .index-process-section .index-process-section__step-card {
   position: relative;
   z-index: 1;
@@ -3080,7 +3082,7 @@ main { flex: 1 0 auto; }
   align-items: flex-start;
   gap: 24px;
   padding: 32px 0;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-dark);
 }
 .index-process-section .index-process-section__step-card:last-child {
   border-bottom: none;
@@ -3130,7 +3132,7 @@ main { flex: 1 0 auto; }
   font-size: 1.375rem;
   font-weight: 600;
   line-height: 1.4;
-  color: var(--text-dark);
+  color: var(--text-light);
   margin: 0 0 8px;
 }
 .index-process-section .index-process-section__step-content p {
@@ -3142,15 +3144,14 @@ main { flex: 1 0 auto; }
   margin: 0;
 }
 
-/* Step Media */
 .index-process-section .index-process-section__step-media {
   flex-shrink: 0;
   width: 200px;
   height: 133px;
   border-radius: var(--radius-img);
   overflow: hidden;
-  background: rgba(0,212,255,0.05);
-  border: 1px solid var(--border-light);
+  background: rgba(200,169,110,0.05);
+  border: 1px solid var(--border-dark);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -3162,10 +3163,9 @@ main { flex: 1 0 auto; }
   display: block;
 }
 
-/* Demand Check Section */
 .index-process-section .index-process-section__demand-check {
-  background: rgba(255,255,255,0.8);
-  border: 1px solid var(--border-light);
+  background: rgba(20,20,22,0.9);
+  border: 1px solid var(--border-dark);
   border-radius: var(--radius-card);
   padding: 40px;
   box-shadow: var(--shadow-card);
@@ -3180,7 +3180,7 @@ main { flex: 1 0 auto; }
   font-size: 1.375rem;
   font-weight: 600;
   line-height: 1.4;
-  color: var(--text-dark);
+  color: var(--text-light);
   margin: 0 0 8px;
 }
 .index-process-section .index-process-section__demand-header p {
@@ -3199,14 +3199,13 @@ main { flex: 1 0 auto; }
   gap: 16px;
 }
 
-/* Demand Pill */
 .index-process-section .index-process-section__demand-pill {
   display: flex;
   align-items: center;
   gap: 12px;
   padding: 16px 20px;
-  background: var(--bg-light);
-  border: 1px solid var(--border-light);
+  background: var(--surface);
+  border: 1px solid var(--border-dark);
   border-radius: var(--radius-btn);
   transition: all 0.3s ease;
   cursor: default;
@@ -3647,7 +3646,7 @@ main { flex: 1 0 auto; }
 
 /* Panels */
 .index-stats-section__panel {
-  background: #FFFFFF;
+  background: #0D0D0D;
   border: 1px solid var(--border-light);
   border-radius: var(--radius-card);
   padding: 32px;
@@ -3790,7 +3789,7 @@ main { flex: 1 0 auto; }
 
 /* Tiles */
 .index-stats-section__tile {
-  background: #FFFFFF;
+  background: #0D0D0D;
   border: 1px solid var(--border-light);
   border-radius: var(--radius-card);
   padding: 24px;
@@ -4102,7 +4101,7 @@ main { flex: 1 0 auto; }
 }
 
 .index-cta-section__submit {
-  background: linear-gradient(135deg, #00D4FF 0%, #0088CC 100%);
+  background: linear-gradient(135deg, #C8A96E 0%, #BA9349 100%);
   color: #050810;
   padding: 14px 32px;
   border-radius: 8px;
@@ -4119,7 +4118,7 @@ main { flex: 1 0 auto; }
 }
 
 .index-cta-section__submit:hover {
-  background: linear-gradient(135deg, #33DDFF 0%, #00AAEE 100%);
+  background: linear-gradient(135deg, #D6BF93 0%, #C3A262 100%);
   box-shadow: 0 6px 20px rgba(0, 212, 255, 0.4);
   transform: translateY(-1px);
 }
@@ -4852,11 +4851,11 @@ nav.navbar .sub-menu li a:hover { color: #00D4FF !important; background-color: r
   --cc-modal-bg: #ffffff;
   --cc-primary-color: #1f2937;
   --cc-secondary-color: #4b5563;
-  --cc-btn-primary-bg: #00d4ff;
+  --cc-btn-primary-bg: #C8A96E;
   --cc-btn-primary-color: #ffffff;
-  --cc-btn-primary-border: #00d4ff;
-  --cc-btn-primary-hover-bg: #00bbe6;
-  --cc-btn-primary-hover-border: #00bbe6;
+  --cc-btn-primary-border: #C8A96E;
+  --cc-btn-primary-hover-bg: #C8A96E;
+  --cc-btn-primary-hover-border: #C8A96E;
   --cc-btn-primary-hover-color: #ffffff;
   /* --cc-btn-secondary-* are used by BOTH the bar's "Customize" link and
    * the preferences modal's "Accept Necessary" / "Save Preferences" pills.
@@ -4870,7 +4869,7 @@ nav.navbar .sub-menu li a:hover { color: #00D4FF !important; background-color: r
   --cc-btn-secondary-hover-bg: #e5e7eb;
   --cc-btn-secondary-hover-color: #111827;
   --cc-btn-secondary-hover-border: #d1d5db;
-  --cc-toggle-on-bg: #00d4ff;
+  --cc-toggle-on-bg: #C8A96E;
 }
 
 #cc-main,
@@ -4983,7 +4982,7 @@ nav.navbar .sub-menu li a:hover { color: #00D4FF !important; background-color: r
  * defaults for the preferences modal's two secondary pills). */
 #zappy-cookie-banner .zappy-cookie-banner__button--customize {
   background-color: transparent !important;
-  color: #00d4ff !important;
+  color: #C8A96E !important;
   border: none !important;
   padding: 0 8px !important;
   height: 32px !important;
@@ -4993,7 +4992,7 @@ nav.navbar .sub-menu li a:hover { color: #00D4FF !important; background-color: r
 }
 
 #zappy-cookie-banner .zappy-cookie-banner__button--customize:hover {
-  color: #00bbe6 !important;
+  color: #C8A96E !important;
   background-color: transparent !important;
 }
 
@@ -5375,6 +5374,19 @@ div[id*="mic-access-tool-box"] button[class*="reset"] * {
 ._access-icon {
   display: flex !important;
 }
+/* === BUTTON TEXT OVERRIDES START === */
+.btn-primary,
+.btn--primary,
+[class*="btn-primary"],
+[class*="btn--primary"] { color: #333333 !important; }
+.btn-accent,
+.btn--accent,
+[class*="btn-accent"],
+[class*="btn--accent"] { color: #333333 !important; }
+.navbar .nav-cta-btn,
+.nav-cta-btn { color: #333333 !important; }
+/* === BUTTON TEXT OVERRIDES END === */
+
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
