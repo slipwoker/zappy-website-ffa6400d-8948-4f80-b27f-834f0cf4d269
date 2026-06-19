@@ -28,7 +28,10 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: yosefdavid148@gmail.com
+- Phone: +972544367329
+- Phone (tel): tel:+972544367329
+- Address: פנחס לבון 18, נתניה
 
 ### Contact form
 - URL: https://example.com
