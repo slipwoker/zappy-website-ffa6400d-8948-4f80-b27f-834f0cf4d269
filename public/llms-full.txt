@@ -2,13 +2,13 @@
 
 An Israeli distributed GPU computing platform that allows gamers and PC owners to monetize their idle graphics cards by sharing computing power for AI, rendering, and advanced tech projects. The platform targets the Israeli gaming community, emphasizing ease of use, user control over sharing schedules, and transparent earnings potential based on GPU model and activity hours. The brand has a tech-forward, community-driven identity with a focus on turning existing hardware into a passive income stream.
 
-Source: https://example.com
+Source: https://cloudil.zappy5.app
 
 ---
 
 ## תתחיל להרוויח כסף מהמחשב בלי לעשות כלום — CloudIL
 
-URL: https://example.com
+URL: https://cloudil.zappy5.app
 Description: הפוך את הכרטיס גרפי שלך למכונת מזומנים אוטומטית. שתף כוח עיבוד גרפי בזמן שאתה לא משחק ותיהנה מהכנסה פסיבית שקופה וקלה עם שליטה מלאה על לוח הזמנים. הצטרף לקהילת CloudIL עכשיו.
 
 תתחיל להרוויח כסף מהמחשב בלי לעשות כלום — CloudIL
@@ -847,7 +847,7 @@ CloudIL מחברת בין בעלי מחשבים חזקים בישראל לבין
 
 ## מדיניות פרטיות
 
-URL: https://example.com/privacy
+URL: https://cloudil.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -1110,7 +1110,7 @@ CloudIL מחברת בין בעלי מחשבים חזקים בישראל לבין
 
 ## הצהרת נגישות
 
-URL: https://example.com/accessibility
+URL: https://cloudil.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -1382,7 +1382,7 @@ CloudIL מחברת בין בעלי מחשבים חזקים בישראל לבין
 
 ## תנאי שימוש
 
-URL: https://example.com/terms
+URL: https://cloudil.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש

@@ -7,21 +7,21 @@
 ## Pages
 
 ### דף הבית
-https://example.com
+https://cloudil.zappy5.app
 הפוך את הכרטיס גרפי שלך למכונת מזומנים אוטומטית. שתף כוח עיבוד גרפי בזמן שאתה לא משחק ותיהנה מהכנסה פסיבית שקופה וקלה עם שליטה מלאה על לוח הזמנים. הצטרף לקהילת CloudIL עכשיו.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://cloudil.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://cloudil.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://cloudil.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -34,8 +34,8 @@ Information about WCAG compliance and accessibility features.
 - Address: פנחס לבון 18, נתניה
 
 ### Contact form
-- URL: https://example.com
-- Endpoint: https://example.com/api/email/contact-form
+- URL: https://cloudil.zappy5.app
+- Endpoint: https://cloudil.zappy5.app/api/email/contact-form
 - Method: POST
 - Content-Type: application/json
 - Fields:
@@ -65,6 +65,6 @@ Technology / Passive Income / Distributed Computing
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Sitemap (XML): https://cloudil.zappy5.app/sitemap.xml
+- Robots: https://cloudil.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://cloudil.zappy5.app/llms-full.txt
