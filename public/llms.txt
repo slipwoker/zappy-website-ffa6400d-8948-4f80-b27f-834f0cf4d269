@@ -1,0 +1,67 @@
+# CloudIL — Generative Engine Optimization Map
+
+> An Israeli distributed GPU computing platform that allows gamers and PC owners to monetize their idle graphics cards by sharing computing power for AI, rendering, and advanced tech projects. The platform targets the Israeli gaming community, emphasizing ease of use, user control over sharing schedules, and transparent earnings potential based on GPU model and activity hours. The brand has a tech-forward, community-driven identity with a focus on turning existing hardware into a passive income stream.
+
+---
+
+## Pages
+
+### דף הבית
+https://cloudil-ffa6400d.zappy5.app
+הפוך את הכרטיס גרפי שלך למכונת מזומנים אוטומטית. שתף כוח עיבוד גרפי בזמן שאתה לא משחק ותיהנה מהכנסה פסיבית שקופה וקלה עם שליטה מלאה על לוח הזמנים. הצטרף לקהילת CloudIL עכשיו.
+
+## Legal & Policy
+
+### Privacy Policy
+https://cloudil-ffa6400d.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://cloudil-ffa6400d.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://cloudil-ffa6400d.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://cloudil-ffa6400d.zappy5.app
+- Endpoint: https://cloudil-ffa6400d.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `phone` (tel, required)
+  - `email` (email, required)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About CloudIL
+An Israeli distributed GPU computing platform that allows gamers and PC owners to monetize their idle graphics cards by sharing computing power for AI, rendering, and advanced tech projects. The platform targets the Israeli gaming community, emphasizing ease of use, user control over sharing schedules, and transparent earnings potential based on GPU model and activity hours. The brand has a tech-forward, community-driven identity with a focus on turning existing hardware into a passive income stream.
+
+## Target Audience
+- Israeli gamers and PC owners with NVIDIA RTX 3060 and above or AMD RX 6700XT and above
+- גיימרים ובעלי מחשבים בישראל
+- סטודנטים חובבי טכנולוגיה
+- אמני תלת-ממד מקצועיים
+
+## Industry
+Technology / Passive Income / Distributed Computing
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://cloudil-ffa6400d.zappy5.app/sitemap.xml
+- Robots: https://cloudil-ffa6400d.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://cloudil-ffa6400d.zappy5.app/llms-full.txt
